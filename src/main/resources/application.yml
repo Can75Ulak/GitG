@@ -3,3 +3,7 @@ spring:
     name: dunya_ulkeler
   profiles:
     active: dev
+
+  server:
+    port: 8181
+
