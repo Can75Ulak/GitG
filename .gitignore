@@ -1,0 +1,42 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+echo "postgresql/data/PG_VERSION" >> .gitignore
+echo "postgresql/data/base/" >> .gitignore
+echo "postgresql/data/pg_hba.conf" >> .gitignore
+echo "postgresql/data/pg_ident.conf" >> .gitignore
+echo "postgresql/data/postgresql.auto.conf" >> .gitignore
+echo "postgresql/data/postgresql.conf" >> .gitignore
+echo "postgresql/data/postmaster.opts" >> .gitignore
+echo "postgresql/data/postmaster.pid" >> .gitignore

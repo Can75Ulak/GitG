@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: dunya_ulkeler
+  profiles:
+    active: dev
