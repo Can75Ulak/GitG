@@ -3,3 +3,9 @@ spring:
     name: dunya_ulkeler
   profiles:
     active: dev
+
+  server:
+    servlet:
+      context-path: /api
+    port: 8181
+
