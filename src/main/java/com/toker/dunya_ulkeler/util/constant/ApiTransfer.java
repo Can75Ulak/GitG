@@ -4,7 +4,7 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
-public class Api {
+public class ApiTransfer {
 
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
     public static class Country {
